@@ -1,0 +1,21 @@
+I remembered earlier that we didn't need PyCharm to run Python, we can just install the normal Python, then use Sublime Text as the editor.
+
+Download:
+- python-3.6.4.exe at https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe
+
+Quickest way:
+1. Use and submit UDPPingerClient.py (I've modified it, so mine's different)
+
+Longer way:
+1. Install Python 3 (python-3.6.4.exe)
+2. Open the "UDPPingerServerWithMoreComments.py" file with Sublime Text
+3. Read the file, try to understand most of it.
+4. Try to run the UDPPingerServer.py (this makes __name__ == '__main__' true):
+	a) Open cmd
+	b) Navigate to the folder with "cd" command
+	c) Type "python UDPPingerServer.py"
+5. The server is now on, basically, that's just how we run python files.
+6. Make a new file (I suggest Sublime Text)
+7. Read UDPPingerClient.py, and compare it to UDPPingerServer.py (UDPPingerServer.py is given by sir)
+8. Try to compare them and notice differences. I myself just searched "udp pinger python" on google, and found a very similar UDPPingerServer on the internet, and a corresponding UDPPingerClient, and just modified it to fit sir's version.
+9. I'll answer any question you have~
